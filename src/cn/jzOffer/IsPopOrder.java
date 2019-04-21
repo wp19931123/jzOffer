@@ -12,7 +12,7 @@ public class IsPopOrder {
     public static void main(String[] args) {
         int[] pushA = {1, 2, 3, 4, 5};
         int[] popA = {4, 5, 3, 1, 2};
-        System.out.print(new IsPopOrder().IsPopOrder(pushA, popA));
+        System.out.print(new IsPopOrder().IsPopOrder2(pushA, popA));
     }
 
     public boolean IsPopOrder(int[] pushA, int[] popA) {

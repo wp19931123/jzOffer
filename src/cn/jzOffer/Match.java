@@ -7,6 +7,16 @@ package cn.jzOffer;
  */
 public class Match {
 
+    public static void main(String[] args) {
+        char[] str = {'a', 'a', 'a'};
+        char[] p1 = {'a', 'b', '*', 'a', 'c', '*', 'a'};
+        char[] p2 = {'a', '.', 'a'};
+        char[] p3 = {'a', 'a', '.', 'a'};
+        System.out.println(new Match().match(str, p1));
+        System.out.println(new Match().match(str, p2));
+        System.out.println(new Match().match(str, p3));
+    }
+
     public boolean match(char[] str, char[] pattern) {
         if (str == null || pattern == null) {
             return false;

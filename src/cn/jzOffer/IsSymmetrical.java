@@ -24,7 +24,7 @@ public class IsSymmetrical {
         if (pRoot == null) {
             return true;
         }
-        //定义一个新的根左右遍历方式，与前序遍历对比
+        //定义一个新的根右左遍历方式，与前序遍历对比
         Stack<TreeNode> s1 = new Stack<>();
         Stack<TreeNode> s2 = new Stack<>();
 
